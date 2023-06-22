@@ -1,0 +1,19 @@
+/* 
+#E7CEA6
+#0A6EBD
+#5A96E3
+#A1C2F1
+*/
+
+.nav-bg {
+    background-color: #E7CEA6;
+    color: #0A6EBD;
+    height: 80px;
+    width: 100%;
+}
+
+.pad50 {
+    background-color: black;
+    margin: 250px 250px 250px 250px;
+   
+}
