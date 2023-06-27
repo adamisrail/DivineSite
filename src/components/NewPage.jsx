@@ -22,6 +22,7 @@ const NewPage = () => {
           height: 55.02,
           left: 524,
           top: 1006,
+          
           position: "absolute",
         }}
       >
