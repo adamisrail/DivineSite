@@ -11,8 +11,10 @@ const NewPage = () => {
       <img
         className="backgroundimg"
         
-        src='/src/assets/Bg.png'
+        src="https://i.ibb.co/0ryLxSb/Bg.png"
       />
+{/* <a href="https://ibb.co/5Lh3PyH"><img src="https://i.ibb.co/0ryLxSb/Bg.png" alt="Bg" border="0"></a> */}
+
       <div
         className="AvailablePackages"
         style={{
