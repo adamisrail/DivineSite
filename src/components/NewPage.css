@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+
+.Frame1 {
+    width: 100%;
+    height: auto;
+    position: "relative";
+    background: "white";
+
+}
+.backgroundimg {
+
+    max-width: 100%;
+    height: auto;
+  
+}
