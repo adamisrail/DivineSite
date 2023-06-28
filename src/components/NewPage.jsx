@@ -1,53 +1,26 @@
 import React from "react";
 import './NewPage.css'
+import Header from "./Header/Header";
 
 
 const NewPage = () => {
   return (
-    <div
-      className="Frame1"
-    
-    >
-      <img
-        className="backgroundimg"
-        
-        src="https://i.ibb.co/0ryLxSb/Bg.png"
-      />
-{/* <a href="https://ibb.co/5Lh3PyH"><img src="https://i.ibb.co/0ryLxSb/Bg.png" alt="Bg" border="0"></a> */}
+    <div >
+      {/* <img className="backgroundimg" src="https://i.ibb.co/0ryLxSb/Bg.png"/> */}
+      <Header />
 
-      <div
-        className="AvailablePackages"
-        style={{
-          width: 889,
-          height: 55.02,
-          left: 524,
-          top: 1006,
-          
-          position: "absolute",
-        }}
-      >
-        <div
-          className="Rectangle6"
-          style={{
-            width: 889,
-            height: 55.02,
-            left: 0,
-            top: 0,
-            position: "absolute",
-            background: "rgba(255, 255, 255, 0.10)",
-            borderRadius: 4.83,
-          }}
-        ></div>
-        <div
+{/*      
+      <div className="AvailablePackages1">
+        <div className="Rectangle6Available"></div>
+        <p
           className="AvailablePackages"
           style={{
-            width: 264.48,
-            height: 24.35,
-            left: 311.78,
-            top: 15.44,
-            position: "absolute",
+            
+            
+            position: "relative",
             textAlign: "center",
-            color: "black",
+            justifyContent: "center",
+            color: "white",
             fontSize: 23.17,
             fontFamily: "Poppins",
             fontWeight: "400",
@@ -55,9 +28,13 @@ const NewPage = () => {
           }}
         >
           Available Packages
-        </div>
+        </p>
       </div>
-      <div
+ */}
+
+
+
+      {/* <div
         className="Rectangle7"
         style={{
           width: 673,
@@ -142,25 +119,7 @@ const NewPage = () => {
       >
         Contact
       </div>
-      <div
-        className="Company"
-        style={{
-          width: 1920,
-          height: 133,
-          left: -0,
-          top: 0,
-          position: "absolute",
-          textAlign: "center",
-          color: "white",
-          fontSize: 96,
-          fontFamily: "Poppins",
-          fontWeight: "400",
-          letterSpacing: 57.6,
-          wordWrap: "break-word",
-        }}
-      >
-        COMPANY
-      </div>
+      */}
     </div>
   );
 };
